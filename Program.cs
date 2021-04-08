@@ -21,7 +21,7 @@ namespace JurosSimples
             i = Convert.ToDecimal(ent2);
             t = Convert.ToInt16(ent3);
 
-            j = c * i * t;
+            j = c * (i/100) * t;
             m = (c + j);
             
             Console.WriteLine();
